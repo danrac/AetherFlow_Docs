@@ -4,10 +4,13 @@ Adobe After Effects extension for AI-assisted creative workflows.
 
 [Download Latest Release](https://github.com/danrac/AetherFlow_Releases/releases/latest)
 
+[Sponsor Development](https://github.com/sponsors/danrac)
+
 ## Public Links
 
 - [Release Downloads](https://github.com/danrac/AetherFlow_Releases/releases/latest)
 - [Release Repository](https://github.com/danrac/AetherFlow_Releases)
+- [GitHub Sponsors](https://github.com/sponsors/danrac)
 
 ## Firewall Allowlist
 

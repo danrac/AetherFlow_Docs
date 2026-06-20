@@ -8,6 +8,12 @@ Download the latest public release here:
 
 https://github.com/danrac/AetherFlow_Releases/releases/latest
 
+## Support
+
+Optional GitHub Sponsors support:
+
+https://github.com/sponsors/danrac
+
 ## Install
 
 1. Download `AetherFlow_CEP.zxp` from the latest release.

@@ -136,6 +136,7 @@ If updates or downloads fail:
 
 ## Public Distribution Model
 
-- `danrac/AetherFlow_CEP`: private source and development repository.
+- `danrac/AetherFlow_CEP_Source`: private source and development repository.
+- `danrac/AetherFlow_CEP`: public splash page and user-facing overview.
 - `danrac/AetherFlow_Docs`: public documentation and GitHub Pages.
 - `danrac/AetherFlow_Releases`: public downloads, release notes, checksums, and plugin packages.

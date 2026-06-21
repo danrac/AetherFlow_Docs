@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Public AetherFlow documentation for installation, runtime setup, workflows, and release downloads.">
+    <title>AetherFlow Docs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="https://danrac.github.io/AetherFlow_CEP/" aria-label="AetherFlow splash page">
+        <img src="assets/brand/aetherflow-logo.png" alt="" aria-hidden="true">
+        <span>AetherFlow Docs</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#install">Install</a>
+        <a href="#runtime">Runtime</a>
+        <a href="#workflows">Workflows</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Download</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public documentation</p>
+          <h1>AetherFlow for After Effects</h1>
+          <p class="lead">
+            Install the extension, configure local runtime components, and run artist-facing AI workflows directly inside After Effects.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Download latest release</a>
+            <a class="button" href="https://danrac.github.io/AetherFlow_CEP/">View splash page</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/screenshots/aetherflow-cep-main.png" alt="AetherFlow main CEP panel">
+        </figure>
+      </section>
+
+      <section id="install" class="section-grid">
+        <div>
+          <p class="eyebrow">Install</p>
+          <h2>First-time setup</h2>
+          <p>AetherFlow ships as a ZXP extension. Large runtime pieces are installed afterward through Runtime Manager.</p>
+        </div>
+        <ol class="steps">
+          <li>Download <code>AetherFlow_CEP.zxp</code> from the latest release.</li>
+          <li>Install the ZXP with your preferred ZXP installer.</li>
+          <li>Restart After Effects.</li>
+          <li>Open <code>Window &gt; Extensions &gt; AetherFlow</code>.</li>
+          <li>Open Configuration and run <code>Install / Repair Runtime</code>.</li>
+          <li>Use Runtime Manager to install workflow-specific models and plugin packages.</li>
+        </ol>
+      </section>
+
+      <section id="runtime" class="cards-section">
+        <div class="section-heading">
+          <p class="eyebrow">Runtime</p>
+          <h2>Online or offline installs</h2>
+          <p>Runtime Manager keeps the ZXP small and lets connected or restricted machines use the same workflow surface.</p>
+        </div>
+        <div class="cards two">
+          <article class="card">
+            <h3>Online mode</h3>
+            <p>Uses the configured runtime cache first, then downloads missing approved components when needed.</p>
+          </article>
+          <article class="card">
+            <h3>Offline mode</h3>
+            <p>Installs only from the configured runtime cache and does not use public internet fallback.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflows" class="cards-section">
+        <div class="section-heading">
+          <p class="eyebrow">Workflows</p>
+          <h2>What AetherFlow helps build</h2>
+        </div>
+        <div class="cards">
+          <article class="card"><h3>Template graphics</h3><p>Rebuild reference graphics as editable After Effects precomps using OCR, templates, and post-process controls.</p></article>
+          <article class="card"><h3>Node media routing</h3><p>Connect source, color, cache, viewer, composite, runtime model, and export nodes into reusable pipelines.</p></article>
+          <article class="card"><h3>Enhancement</h3><p>Run local cleanup, upscaling, slow-motion, and native plugin-assisted workflows where installed.</p></article>
+          <article class="card"><h3>Runtime Manager</h3><p>Install, repair, mute, remove, and verify local models, style packs, encoders, optional services, and native plugins.</p></article>
+        </div>
+      </section>
+
+      <section id="screenshots" class="screenshots">
+        <div class="section-heading">
+          <p class="eyebrow">Screenshots</p>
+          <h2>Extension surfaces</h2>
+        </div>
+        <div class="shot-grid">
+          <figure><img src="assets/screenshots/aetherflow-cep-configuration.png" alt="AetherFlow configuration panel"><figcaption>Configuration</figcaption></figure>
+          <figure><img src="assets/screenshots/aetherflow-runtime-manager.png" alt="AetherFlow runtime manager"><figcaption>Runtime Manager</figcaption></figure>
+          <figure><img src="assets/screenshots/node-workspace.png" alt="AetherFlow node workspace"><figcaption>Node Workflow Workspace</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section-grid compact">
+        <div>
+          <p class="eyebrow">Network</p>
+          <h2>Firewall allowlist</h2>
+        </div>
+        <pre><code>https://danrac.github.io/AetherFlow_CEP/
+https://danrac.github.io/AetherFlow_Docs/
+https://github.com/danrac/AetherFlow_Releases/releases/
+https://github.com/danrac/AetherFlow_Releases/releases/download/
+https://objects.githubusercontent.com/</code></pre>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://danrac.github.io/AetherFlow_CEP/">Splash page</a>
+      <a href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Releases</a>
+      <a href="https://github.com/sponsors/danrac">Sponsor</a>
+    </footer>
+  </body>
+</html>

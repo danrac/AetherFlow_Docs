@@ -8,6 +8,8 @@ Adobe After Effects extension for local AI-assisted creative workflows.
 
 ![AetherFlow main CEP panel](assets/screenshots/aetherflow-cep-main.png)
 
+The Runtime workspace provides quick access to Prompt Assistant, image generation, mask/inpaint, upscaling, slow motion, Project Organizer, Configuration, and Runtime Manager. The shared header switches directly between Runtime, Node Workflow, and Composer.
+
 ## Overview
 
 AetherFlow runs inside After Effects as a CEP/ZXP panel. It provides artist-facing tools for prompt-assisted image work, footage enhancement, OCR/template graphics, node-based workflow building, runtime management, and optional native AE plugin add-ons.
@@ -20,13 +22,25 @@ Large runtime dependencies and model weights are installed after the ZXP through
 
 ![AetherFlow configuration panel](assets/screenshots/aetherflow-cep-configuration.png)
 
+Configuration stores output/cache preferences, user profile, usage analytics preference, update checks, Hugging Face token input, Online/Offline mode, and Runtime cache settings for studio or offline deployment.
+
 ### Runtime Manager
 
 ![AetherFlow runtime manager](assets/screenshots/aetherflow-runtime-manager.png)
 
+Runtime Manager installs and reports status for local models, native plugin packages, Python helpers, source-cache restores, offline cache behavior, and storage audits. Components are grouped so artists can identify missing, muted, installed, or repairable workflow dependencies.
+
 ### Node Workflow Workspace
 
 ![AetherFlow node workflow workspace](assets/screenshots/node-workspace.png)
+
+The node workspace is the project-bound visual editor for workflow graphs. It supports project tabs, source binding, reusable nodes, grouped workflow modules, inspector settings, workflow console output, and saved or imported presets.
+
+### Animation Composer
+
+![AetherFlow Animation Composer workspace](assets/screenshots/aetherflow-animation-composer.png)
+
+Composer provides a motion library, shared keyframe-plan preview, stackable and trimmable timeline blocks, and controls for timing, intensity, curves, direction, delay, and advanced motion settings. Apply writes the generated plan to selected AE layers; Composer preset persistence and its disabled AI tools remain in development.
 
 ## Workflow Areas
 

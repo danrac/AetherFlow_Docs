@@ -14,29 +14,35 @@ Source code and internal development materials are private. This repository cont
 
 ## Screenshots
 
-### Main CEP Panel
+### Main Runtime Workspace
 
-![AetherFlow main CEP panel](assets/screenshots/aetherflow-cep-main.png)
+![AetherFlow main Runtime workspace](assets/screenshots/aetherflow-cep-main.png)
 
-The main panel is the artist-facing workspace for prompt assistance, image generation, upscaling, frame blending, Project Organizer actions, status output, Configuration, Runtime Manager, and the node workflow workspace.
+The Runtime workspace provides quick access to Prompt Assistant, image generation, mask/inpaint, upscaling, slow motion, Project Organizer, Configuration, and Runtime Manager. The shared header switches directly between Runtime, Node Workflow, and Composer.
 
 ### Configuration
 
 ![AetherFlow configuration panel](assets/screenshots/aetherflow-cep-configuration.png)
 
-Configuration manages install preferences, runtime cache location, update checks, user profile fields, and Online/Offline install mode.
+Configuration stores output/cache preferences, user profile, usage analytics preference, update checks, Hugging Face token input, Online/Offline mode, and Runtime cache settings for studio or offline deployment.
 
 ### Runtime Manager
 
 ![AetherFlow runtime manager](assets/screenshots/aetherflow-runtime-manager.png)
 
-Runtime Manager shows installed, missing, and muted components grouped by core tools, AI models, style packs, encoders, optional services, and native AE plugins.
+Runtime Manager is the install and status surface for local models, native plugin packages, Python helpers, source-cache restores, offline cache behavior, and storage audits. It groups native and core runtime pieces, workflow models, generation models, audio/TTS tools, and custom components.
 
 ### Node Workflow Workspace
 
 ![AetherFlow node workflow workspace](assets/screenshots/node-workspace.png)
 
-The node workflow workspace is the visual editor for multi-step After Effects automation. Users bind comp or layer sources, inspect node settings, run full workflows or branches, and use workflow presets.
+The node workspace is the project-bound visual editor for workflow graphs. It supports project tabs, source binding, reusable nodes, grouped workflow modules, inspector settings, workflow console output, and saved or imported presets.
+
+### Animation Composer
+
+![AetherFlow Animation Composer workspace](assets/screenshots/aetherflow-animation-composer.png)
+
+Composer provides a motion library, shared keyframe-plan preview, stackable and trimmable timeline blocks, and controls for timing, intensity, curves, direction, delay, and advanced motion settings. Apply writes the generated plan to selected AE layers; Composer preset persistence and its disabled AI tools remain in development.
 
 ## What AetherFlow Does
 

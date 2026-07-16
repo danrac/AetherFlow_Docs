@@ -285,7 +285,8 @@ li {
 
 .shot-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 16px;
 }
 
@@ -296,13 +297,18 @@ figure {
 
 figure img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
 }
 
 figcaption {
+  display: grid;
+  gap: 5px;
   padding: 12px 14px;
   color: var(--muted);
+}
+
+figcaption strong {
+  color: var(--text);
   font-weight: 800;
 }
 
